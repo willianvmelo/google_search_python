@@ -48,7 +48,7 @@ if not (os.path.isfile('saída 1.txt')):
             arquivo_saida.write(query+'|' + url+'\n')
         
 
-
+    # Fechando arquivos
     arquivo_entrada.close()
     arquivo_saida.close()
 
