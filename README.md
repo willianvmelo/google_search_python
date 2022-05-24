@@ -10,3 +10,5 @@ Este script python realiza buscas no google recebendo termos a serem pesquisados
 
 # Observações:
 O scrip aceita um terceiro argumento que é o número de urls buscadas por cada termo. Se esse parâmetro não for definido serão buscadas somente 10 URLs.
+Exemplo:
+'python core.py [termos.txt] 50' lista 50 urls por cada termo.
