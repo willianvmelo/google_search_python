@@ -7,7 +7,7 @@ import os.path
 
 # Verificando se o script foi chamado corretamente.
 
-if len(sys.argv):
+if len(sys.argv)> 1:
     arquivo = sys.argv[1]
 else:
     print("Sintaxe 'python meu_programa.py [arquivo]’")
